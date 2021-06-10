@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Assessment7.Models.AnimalResult>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Weight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Weight)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Species.Name)
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+<form asp-controller="Home" asp-action="Species">
+    SpeciesName: <input type="text" name="SpeciesName" />
+    <input type="submit" value="Search" class="btn btn-dark" />
+</form>
+<h2>Press Play if you want to have a fun moment before you search</h2>
+<iframe width="900" height="520" src="https://www.youtube.com/embed/YbIPizloGdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
