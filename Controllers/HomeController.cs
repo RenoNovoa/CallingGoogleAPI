@@ -54,17 +54,6 @@ namespace Assessment7.Controllers
             return View(donut);
         }
 
-        public async Task<IActionResult> GetLongLat(string zipCode)
-        {
-            var location = await _locationService.GetLocationAsync("48220");
-
-            var places = await _locationService.GetPlacesAsync(location);
-
-            return View(location);
-        }
-
-
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

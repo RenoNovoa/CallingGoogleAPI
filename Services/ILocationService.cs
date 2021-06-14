@@ -9,6 +9,6 @@ namespace Assessment7.Services
     public interface ILocationService
     {
         Task<Location> GetLocationAsync(string zipCode);
-        Task<IList<Result>> GetPlacesAsync(Location location);
+        Task<IList<Place>> GetPlacesAsync(Location location, int radius, string type);
     }
 }

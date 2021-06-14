@@ -44,18 +44,19 @@ namespace Assessment7.Services
             return location; // you can put a breakpoin here to test 
         }
 
-        public async Task<IList<Result>> GetPlacesAsync(Location location)
+        public async Task<IList<Place>> GetPlacesAsync(Location location, int radius, string type)//int radius, string type
         {
             var baseUrl = "https://maps.googleapis.com/maps/api/";
-            var radius = 50000;
-            var types = "gym";
+            //var radius = 50000;
+            //var types = "gym";
             
-            var endpoint = $"place/nearbysearch/json?location={location.Latitude},{location.Longitude}&radius={radius}&keyword={types}&key={GoogleApiKey}";
+            var endpoint = $"place/nearbysearch/json?location={location.Latitude},{location.Longitude}&radius={radius}&keyword={type}&key={GoogleApiKey}";
 
-            var response = await _httpClient.GetFromJsonAsync<Place>(baseUrl + endpoint);
+            var response = await _httpClient.GetFromJsonAsync<PlacesResponse>(baseUrl + endpoint);
 
             
-            return response.results;
+            
+            return response.results; // you can put a breakpoint here to see values coming 
         }
     }
 }

@@ -1,3 +1,4 @@
+C:\Users\djnov\source\repos\assessment-7-RenoNovoa\Assessment7\Assessment7\obj\Debug\netcoreapp3.1\Assessment7.csprojAssemblyReference.cache
 C:\Users\djnov\source\repos\assessment-7-RenoNovoa\Assessment7\Assessment7\obj\Debug\netcoreapp3.1\Assessment7.AssemblyInfoInputs.cache
 C:\Users\djnov\source\repos\assessment-7-RenoNovoa\Assessment7\Assessment7\obj\Debug\netcoreapp3.1\Assessment7.AssemblyInfo.cs
 C:\Users\djnov\source\repos\assessment-7-RenoNovoa\Assessment7\Assessment7\obj\Debug\netcoreapp3.1\Assessment7.csproj.CoreCompileInputs.cache
@@ -112,4 +113,5 @@ C:\Users\djnov\source\repos\assessment-7-RenoNovoa\Assessment7\Assessment7\obj\D
 C:\Users\djnov\source\repos\assessment-7-RenoNovoa\Assessment7\Assessment7\obj\Debug\netcoreapp3.1\Assessment7.dll
 C:\Users\djnov\source\repos\assessment-7-RenoNovoa\Assessment7\Assessment7\obj\Debug\netcoreapp3.1\Assessment7.pdb
 C:\Users\djnov\source\repos\assessment-7-RenoNovoa\Assessment7\Assessment7\obj\Debug\netcoreapp3.1\Assessment7.genruntimeconfig.cache
-C:\Users\djnov\source\repos\assessment-7-RenoNovoa\Assessment7\Assessment7\obj\Debug\netcoreapp3.1\Assessment7.csprojAssemblyReference.cache
+C:\Users\djnov\source\repos\assessment-7-RenoNovoa\Assessment7\Assessment7\obj\Debug\netcoreapp3.1\Razor\Views\Places\GetPlaces.cshtml.g.cs
+C:\Users\djnov\source\repos\assessment-7-RenoNovoa\Assessment7\Assessment7\obj\Debug\netcoreapp3.1\Razor\Views\Places\Index.cshtml.g.cs
